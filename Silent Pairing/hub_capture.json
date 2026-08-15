@@ -1,0 +1,167 @@
+{
+  "capture_format": "csem-ble-sim-v1",
+  "note": "Synthetic capture for CSEM CTF challenge 'Silent Pairing'",
+  "target_hint": null,
+  "packets": [
+    {
+      "seq": 0,
+      "type": "PAIR_ACK",
+      "timestamp": 1755000477,
+      "src": "85:F5:2A:F4:A1:11",
+      "dst": "8B:57:F3:F2:B8:DF",
+      "ack_nonce": 1764783358
+    },
+    {
+      "seq": 1,
+      "type": "ADV",
+      "timestamp": 1755000293,
+      "src": "61:E4:90:61:F1:60",
+      "rssi": -43
+    },
+    {
+      "seq": 2,
+      "type": "PAIR_ACK",
+      "timestamp": 1755000045,
+      "src": "85:F5:2A:F4:A1:11",
+      "dst": "36:11:2F:AB:5F:A3",
+      "ack_nonce": 1614896451
+    },
+    {
+      "seq": 3,
+      "type": "ADV",
+      "timestamp": 1755000409,
+      "src": "D2:71:3F:6A:AE:CD",
+      "rssi": -77
+    },
+    {
+      "seq": 4,
+      "type": "ADV",
+      "timestamp": 1755000442,
+      "src": "5E:A3:E0:3E:FB:CD",
+      "rssi": -81
+    },
+    {
+      "seq": 5,
+      "type": "ADV",
+      "timestamp": 1755000264,
+      "src": "98:98:0C:D5:30:90",
+      "rssi": -47
+    },
+    {
+      "seq": 6,
+      "type": "ADV",
+      "timestamp": 1755000221,
+      "src": "63:96:7E:4F:4D:14",
+      "rssi": -84
+    },
+    {
+      "seq": 7,
+      "type": "PAIR_ACK",
+      "timestamp": 1755000216,
+      "src": "85:F5:2A:F4:A1:11",
+      "dst": "7D:7B:2B:84:86:A4",
+      "ack_nonce": 544365993
+    },
+    {
+      "seq": 8,
+      "type": "OTA_CHUNK",
+      "timestamp": 1755000601,
+      "src": "85:F5:2A:F4:A1:11",
+      "dst": "C7:93:31:48:D4:FA",
+      "iv": "92504f252004999a605b410e0a530b05",
+      "payload_hex": "f256345a2f52f867008006f18c65ccf32359ccf46ddba670116e81a5245b3e281712b99698f4467801ce110ea0bcdd4af0e610e75ae8c659ebdccb6ea7a17d685c4fa8c97206b3df54fa0af6b9562d0aac02706d2b62a952ae93ba2c39c3cb83",
+      "chunk_index": 0,
+      "chunk_total": 1
+    },
+    {
+      "seq": 9,
+      "type": "PAIR_INIT",
+      "timestamp": 1755000044,
+      "src": "36:11:2F:AB:5F:A3",
+      "dst": "85:F5:2A:F4:A1:11",
+      "nonce": 3320117478,
+      "note": "pairing handshake"
+    },
+    {
+      "seq": 10,
+      "type": "PAIR_ACK",
+      "timestamp": 1755000280,
+      "src": "85:F5:2A:F4:A1:11",
+      "dst": "F9:D1:06:C7:3E:79",
+      "ack_nonce": 4180592577
+    },
+    {
+      "seq": 11,
+      "type": "PAIR_INIT",
+      "timestamp": 1755000476,
+      "src": "8B:57:F3:F2:B8:DF",
+      "dst": "85:F5:2A:F4:A1:11",
+      "nonce": 3432370523,
+      "note": "pairing handshake"
+    },
+    {
+      "seq": 12,
+      "type": "OTA_CHUNK",
+      "timestamp": 1755000319,
+      "src": "85:F5:2A:F4:A1:11",
+      "dst": "D5:21:A8:29:00:16",
+      "iv": "ef42fe0a3322aee5043a2ca3b1a6fc80",
+      "payload_hex": "a9b1743472d8a2ff486879331a1eeabc5c8b7c5903d66f147092daa66d58b300f345b4c0c05178f32fd34049c0d02aa21aa92d9302da17fe598fa4a46a24164a0e316b07d708804edbcc22072ee815fcc601caf2015dfbc96ad5b1a536f3f719365915cbebd88c61bc8b60cbb90d21fa",
+      "chunk_index": 0,
+      "chunk_total": 1
+    },
+    {
+      "seq": 13,
+      "type": "OTA_CHUNK",
+      "timestamp": 1755000600,
+      "src": "85:F5:2A:F4:A1:11",
+      "dst": "04:5D:4F:F5:59:96",
+      "iv": "919ba25f7c9997c80da3f9c398ad213a",
+      "payload_hex": "8fae4cd3612347980b07c1461a1e4be3d9351821d1c2776fcfdc0395755533b07da3290c43bd806cc9ffa6ff79aeb30e73be7c47b093ce73bd99a216fcb9bb66f825daa40c5196eee01059ad817969145a1d806f6627cefb93a144b5376fda6b",
+      "chunk_index": 0,
+      "chunk_total": 1
+    },
+    {
+      "seq": 14,
+      "type": "PAIR_INIT",
+      "timestamp": 1755000279,
+      "src": "F9:D1:06:C7:3E:79",
+      "dst": "85:F5:2A:F4:A1:11",
+      "nonce": 1552638564,
+      "note": "pairing handshake"
+    },
+    {
+      "seq": 15,
+      "type": "PAIR_INIT",
+      "timestamp": 1755000215,
+      "src": "7D:7B:2B:84:86:A4",
+      "dst": "85:F5:2A:F4:A1:11",
+      "nonce": 2245523468,
+      "note": "pairing handshake"
+    },
+    {
+      "seq": 16,
+      "type": "PAIR_ACK",
+      "timestamp": 1755000315,
+      "src": "85:F5:2A:F4:A1:11",
+      "dst": "D5:21:A8:29:00:16",
+      "ack_nonce": 3443427423
+    },
+    {
+      "seq": 17,
+      "type": "ADV",
+      "timestamp": 1755000053,
+      "src": "B5:98:BB:EF:DC:A4",
+      "rssi": -49
+    },
+    {
+      "seq": 18,
+      "type": "PAIR_INIT",
+      "timestamp": 1755000314,
+      "src": "D5:21:A8:29:00:16",
+      "dst": "85:F5:2A:F4:A1:11",
+      "nonce": 1755000314,
+      "note": "pairing handshake"
+    }
+  ]
+}

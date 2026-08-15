@@ -1,0 +1,19 @@
+Saffron Glitch Badge capture notes
+==================================
+
+Oscilloscope export columns:
+
+time_ns,vcc_mV,trigger,reset_n,debug
+
+Capture settings:
+
+- nominal VCC: 3300 mV
+- sample interval: 250 ns
+- trigger rises once per firmware cycle
+- reset_n is briefly pulled low before the useful capture window
+- debug is a slow timing pin, not a serial UART
+
+Bench reminder:
+
+The badge was built for the 15-08-1947 ceremony test.
+The real signal is in the power rail after reset, not in the readable-looking debug pulses.
